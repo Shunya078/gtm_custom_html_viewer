@@ -14,7 +14,7 @@ export const DEFAULT_HTML = `<script>
       popupContainer.style.right = '30px';
       popupContainer.style.bottom = '15px';
       popupContainer.style.zIndex = '999999';
-      popupContainer.style.width = '200px';
+      popupContainer.style.width = '400px';
 
       // コンテンツを挿入
       popupContainer.innerHTML = html
@@ -28,7 +28,7 @@ export const DEFAULT_HTML = `<script>
     '<div class="PREFIX-origin">\\
       <style>\\
       .PREFIX-banner{padding:20px;text-align:left;background-color:white;border:1px solid #ccc;border-radius:5px;position:relative;}\\
-      .PREFIX-title{font-size:16px;margin-bottom:10px;color:#0C00C5; font-weight: bold; text-align: left;}\\
+      .PREFIX-title{font-size:16px;margin-bottom:10px;color:#123; font-weight: bold; text-align: left;}\\
       .PREFIX-message{font-size:14px;line-height:1.5;text-align:left;}\\
       .PREFIX-item {margin-bottom: 8px;}\\
       </style>\\
